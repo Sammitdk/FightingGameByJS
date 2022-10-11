@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FightingGame</title>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>
+                Welcome To FightingGame
+            </h1>
+        </center>
+    </header
+    <main>
+        <div style="display: flex; margin-left: 80px;">
+            <div>
+                <img style="height: 500px;" src="https://i.pinimg.com/564x/d4/04/a0/d404a022d7d4dd8451607d3bcef05ac7.jpg" alt="" srcset="">
+            </div>
+            <div id="player1Div" style="margin-left: 3rem;">
+                <center>
+                    <h2 id="player1">
+                        Player1
+                    </h2>
+                    <img src="https://media4.giphy.com/media/NrnTOkKXijr7MMqnuv/giphy.gif?cid=790b76115a1ede0fffc499d022c9c98417e4d3d1280dda16&rid=giphy.gif&ct=s" alt="Player1" height="280">
+                    <h3>Q : Attack</button>
+                    <h3>E : Heal</button>
+                </center>
+            </div>
+            <div id="player2Div" style="margin-left: 3rem;">
+                <center>
+                    <h2 id="player2">
+                        Player2
+                    </h2>
+                    <img src="https://media0.giphy.com/media/Xgelbrc48FLSmumjNb/giphy.gif?cid=790b76113d471ee457665956369fca7f73422c9c2a1f4982&rid=giphy.gif&ct=s" alt="Player1" height="280">
+                    <h3>P : Attack</button>
+                    <h3>I : Heal</button>
+                </center>
+            </div>
+            <div>
+                <img style="height: 500px;" src="https://i.pinimg.com/564x/a1/18/21/a1182178ff04b60fa74d62b6b93d21ec.jpg" alt="" srcset="">
+            </div>
+        </div>   
+        <center>
+            <div id="play">
+                <button onclick="clearButton()" style="height: 30px; background-color: white;">Lets Play</button>
+            </div>
+        </center>    
+    </main>
+    <footer>
+    </footer>
+    <audio src="assets/sounds/attack.mp3" id="attack"></audio>
+    <audio src="assets/sounds/heal.mp3" id="heal"></audio>
+    <script src="index.js"></script>
+</body>
+</html>
